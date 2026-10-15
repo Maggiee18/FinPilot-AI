@@ -1,0 +1,36 @@
+# Gradle / build
+.gradle/
+build/
+/app/build/
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.navigation/
+.kotlin/
+
+# Local configuration (contains SDK path and may contain secrets)
+local.properties
+secrets.properties
+*.env
+
+# Firebase config: download it yourself from the Firebase console, never commit it
+google-services.json
+GoogleService-Info.plist
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and exports (never commit real financial data)
+*.log
+exports/
+*.csv
